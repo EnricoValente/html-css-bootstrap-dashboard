@@ -20,6 +20,7 @@ img {
     width: 80px;
     background-color: #051E34;
     background-image: url("../img/sidebar-bg.png");
+    min-height: 18.75rem;
     
     
 }
@@ -39,8 +40,30 @@ img {
 
 main {
     width: calc(100vw - 80px);
+}
+
+.big-number {
+    font-size: 1.25rem;
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
     
 }
+
+.overlay-1 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale(0);
+    
+}
+    
 
     
     
